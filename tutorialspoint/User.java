@@ -31,6 +31,10 @@ public class User implements Serializable {
       return id;
    }
 
+   public int getId3() {
+      return id;
+   }
+   
    @XmlElement
    public void setId(int id) {
       this.id = id;

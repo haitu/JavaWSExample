@@ -12,6 +12,8 @@ import java.util.List;
 
 public class UserDao {
    public List<User> getAllUsers(){
+	   int test1;
+	   
       List<User> userList = null;
       try {
          File file = new File("Users.dat");
