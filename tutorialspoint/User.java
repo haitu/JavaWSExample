@@ -27,6 +27,9 @@ public class User implements Serializable {
    public int getId1() {
       return id;
    }
+   public int getId2() {
+      return id;
+   }
 
    @XmlElement
    public void setId(int id) {
